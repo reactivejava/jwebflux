@@ -12,6 +12,6 @@ public class MainHandler {
     public Mono<ServerResponse> main(ServerRequest request) {
         return ServerResponse.ok()
                 .contentType(MediaType.APPLICATION_JSON)
-                .body(BodyInserters.fromValue("{\"name\": \"dmitry\"}"));
+                .body(BodyInserters.fromValue("{\"name\": \"alex\"}"));
     }
 }
